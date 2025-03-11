@@ -25,6 +25,11 @@
 
 
 ### Education
+  - AEC in Data Science @ Montreal College of Information Technology
+  - Project Management @ Certificate from HEC Montreal, 2023
+  - Master’s degree in Petroleum Geology @ Shahid Chamran University-Iran (Comparative Evaluation, QC)
+  -	Bachelor’s Degree in Geology @ Isfahan University-Iran (Comparative Evaluation, QC)
+
 
 
 
