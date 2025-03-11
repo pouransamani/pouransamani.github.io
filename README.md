@@ -7,6 +7,10 @@
   - Track project progress and budget (CPI & SPI indicators), invoices & expenditures to ensure alignment with overall portfolio processes, standards, methods, and tools
   -	Final review and ensure all project documentation is complete and stored appropriately
   - Achievements: Successfully optimizing resource allocation for engineering-mining projects, ensuring smooth project execution and alignment with objectives, monitoring project financial health leading to increased efficiency in budget and resource tracking through effective collaboration. 
+- Administrative Agent @ CIUSSS of South-Central Montreal, Verdun Hospital
+  -	Schedule appointments, meetings, and other events
+  -	Communicate by answering phone calls, responding to emails, and interacting with patients, nurses, and doctors
+  -	Achievements: Streamlining patient reception processes, coordinating over 200 patient appointments weekly; and managing 100 patient calls daily, improving response time and increasing patient satisfaction by 10%. 
 
 ### Education
 
