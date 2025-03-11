@@ -17,6 +17,11 @@
    - Describe the drilling cores and create DHL logs, lithological description, core sampling
    - Write weekly drilling reports, compile analysis data and manage the drilling field database
    - Draw and interpret drill holes in section
+  
+ - Technical Geology Project manager @ Research Institute of Petroleum Industry (RIPI), Iran
+   - Directed geological tasks, managing personnel, and allocated resources effectively to meet project requirements
+   - Delivered oral presentations to stakeholders, providing clear and concise updates on project status and results
+   - Achievements: Successfully led 12 geology-focused projects, improving overall project performance by 25% through effective resource coordination, planning, and timely execution, delivering quality results that met client expectations and project objectives, besides published 3 English articles related to geology and 3 conference presentations. 
 
 
 ### Education
