@@ -1,5 +1,9 @@
 # Data Scientist Portfolio
 ### Techincal Skills: Python, ML, SQL, Tableau, Excel, MS Project, ERP(Oracle) 
+### Projects
+ - House Price Prediction
+   
+
 ## Work Experience
 - Project Coordinator @ WSP, Montreal 
   - Foster seamless collaboration among stakeholders, and assist in the development of project plans, timelines, and schedules
@@ -26,7 +30,7 @@
 
 ### Education
   - AEC in Data Science @ Montreal College of Information Technology
-  - Project Management @ Certificate from HEC Montreal, 2023
+  - Project Management Certificate @ HEC Montreal
   - Master’s degree in Petroleum Geology @ Shahid Chamran University-Iran (Comparative Evaluation, QC)
   -	Bachelor’s Degree in Geology @ Isfahan University-Iran (Comparative Evaluation, QC)
     
