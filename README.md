@@ -29,7 +29,9 @@
   - Project Management @ Certificate from HEC Montreal, 2023
   - Master’s degree in Petroleum Geology @ Shahid Chamran University-Iran (Comparative Evaluation, QC)
   -	Bachelor’s Degree in Geology @ Isfahan University-Iran (Comparative Evaluation, QC)
-
-
-
-
+    
+### Volunteering
+  -	Customer Service, CIUSSS of South-Central Montreal @ Verdun Hospital
+  - L'île des Soeurs Elementary School Activities @ Montreal
+  - Child Care Board Member @ RIPI-Iran
+  - Polio Eradication (giving polio drops to children) @ Saman-Iran
