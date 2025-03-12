@@ -1,5 +1,6 @@
 # Data Scientist Portfolio
-### Techincal Skills: Python, ML, SQL, Tableau, Excel, MS Project, ERP(Oracle) 
+#### Techincal Skills: Python, ML, SQL, Tableau, Excel, MS Project, ERP(Oracle) 
+
 ### Projects
  - House Price Prediction
    - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price of each home.
