@@ -15,13 +15,15 @@
 - #### Preprocessing and data cleaning
      - Handling Duplicat
      - Handling missing values
+       
      ![image](https://github.com/user-attachments/assets/04f6ea8a-d91a-4ab9-a472-5d4ba6a9fbd6)
- **Insights from missing data**
-- According to the bar chart: 35 features have missing values, 6 features are 50% and above, 23 features are below 5% and 6 features are between (5-20)%.
-- Missing data was computed according to median and mode methods.
-- To fix the 35 predictors that contains missing values. When I go through each feature having NAs there are multiple variables that relate to Pool, Garage, and Basement, so I deal with them as a group referring to meta data which shows definiton of variables and make it clear that NA in that feature doesn't mean missed value, it means that house dosn't have Pool, Garage, or Basement, so it will be replaced with NONE.
-- listing features having NAs values
-    - Alley, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, PoolQC and Fen
+  
+ - **Insights from missing data**
+     - According to the bar chart: 35 features have missing values, 6 features are 50% and above, 23 features are below 5% and 6 features are between (5-20)%.
+     - Missing data was computed according to median and mode methods.
+     - To fix the 35 predictors that contains missing values. When I go through each feature having NAs there are multiple variables that relate to Pool, Garage, and Basement, so I deal with them as a group referring to meta data which shows definiton of variables and make it clear that NA in that feature doesn't mean missed value, it means that house dosn't have Pool, Garage, or Basement, so it will be replaced with NONE.
+
+
 
 
 
