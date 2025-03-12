@@ -7,22 +7,8 @@
   - This project will give hands-on experience in:
     - Creative Feature Engineering: Identifying and creating new features that could improve model’s performance.
     - Advanced Regression Techniques: Implementing and tuning models such as Random Forests and Gradient Boosting to make accurate predictions.
-- #### Loading libraries and reading the data
-    - This section loads the train and test datasets using pandas.  
-      - The train_test column created to differentiate between training and test data.
-      - The test data does not include the actual SalePrice column in the test dataset, it is set to NaN because this is what we need to predict. Adding this column ensures consistency in the structure of both datasets, making them easier to combine.  
-      - Both datasets concatenated into a single dataframe for `consistent preprocessing`.
-      - There are 1460 instances of train data and 1459 of test data. Total number of attributes equals 81, from which 36 is quantitative, 43 categorical + Id and SalePrice.
-- #### Preprocessing and data cleaning
-     - Handling Duplicat
-     - Handling missing values
-       
-     ![image](https://github.com/user-attachments/assets/04f6ea8a-d91a-4ab9-a472-5d4ba6a9fbd6)
-  
- - **Insights from missing data**
-     - According to the bar chart: 35 features have missing values, 6 features are 50% and above, 23 features are below 5% and 6 features are between (5-20)%.
-     - Missing data was computed according to median and mode methods.
-     - To fix the 35 predictors that contains missing values. When I go through each feature having NAs there are multiple variables that relate to Pool, Garage, and Basement, so I deal with them as a group referring to meta data which shows definiton of variables and make it clear that NA in that feature doesn't mean missed value, it means that house dosn't have Pool, Garage, or Basement, so it will be replaced with NONE.
+
+   
 
 
 
