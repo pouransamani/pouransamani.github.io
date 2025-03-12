@@ -4,6 +4,7 @@
 ## Projects
  - #### House Price Prediction
    - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price for each home.
+     
    - #### Objective 
 The goal is to develop a predictive model by implementing and tuning algorithms such as Lasso, Random Forest, and Gradient Boosting to accurately estimate SalePrice for homes in the test dataset. Specifically, for each Id in the test set, the model should generate a corresponding SalePrice prediction.
 
@@ -22,9 +23,11 @@ The numerical features were scaled to ensure they’re on a similar scale to imp
 Numerical features with senses of categorical were converted to categorical ones
 Year related features were transformed to Age related features
 Porch, Basement, Bath were Converted to total Square feet
+
       - Encoding
 features with quality order were transformed via ordinal labeling.
 the rest categorical-nominals using dummy encoding were transformed.
+
    - Exploratory Data Analysis (EDA)
    To understand data, first exploratory data analysis was performed. This will provide insights that will be useful in building prediction models. the goal is: 
         - Investigate the relationship between each variables and house price and identify any patterns. For example, between the year of construction of a house and its price change. 
