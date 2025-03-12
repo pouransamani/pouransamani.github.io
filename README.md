@@ -1,14 +1,17 @@
-# Data Scientist Portfolio
+# Data Scientist-Project Management Portfolio
 #### Techincal Skills: Python, ML, SQL, Tableau, Excel, MS Project, ERP(Oracle) 
 
-### Projects
- - House Price Prediction
-   - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price of each home.
-  - This project will give hands-on experience in:
-    - Creative Feature Engineering: Identifying and creating new features that could improve model’s performance.
-    - Advanced Regression Techniques: Implementing and tuning models such as Random Forests and Gradient Boosting to make accurate predictions.
+## Projects
+ #### House Price Prediction
+   - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price for each home.
+ #### Objective 
+The aim is to develop a predictive model, implementing and tuning models such as Lasso, Random Forests and Gradient Boosting to make accurate predictions that estimate the SalePrice of homes in the test dataset. Specifically, for each Id in the test set, the corresponding SalePrice should be predicted.
 
-   
+Following the pipeline for doing this project
+  ![image](https://github.com/user-attachments/assets/2bb38bfa-ea31-4122-978d-1b2822739318)
+
+  - Preprocessing and cleaning data were done by verryfing if there is any duplicate value. Meta data was carfully analysed to better handel missing values. Therefor three stages were applied (NA values were replace with None in Garage, Pool, Basement and Alley variabels, numerical features were imputeed with Median, and Mode for categorical ones and finally one feature was droped.  
+
 
 
 
