@@ -2,9 +2,9 @@
 #### Techincal Skills: Python, ML, SQL, Tableau, Excel, MS Project, ERP(Oracle) 
 
 ## Projects
- #### House Price Prediction
+ - #### House Price Prediction
    - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price for each home.
- #### Objective 
+- #### Objective 
 The aim is to develop a predictive model, implementing and tuning models such as Lasso, Random Forests and Gradient Boosting to make accurate predictions that estimate the SalePrice of homes in the test dataset. Specifically, for each Id in the test set, the corresponding SalePrice should be predicted.
 
 Following the pipeline for doing this project
@@ -41,13 +41,13 @@ Following the pipeline for doing this project
    - Achievements: Successfully led 12 geology-focused projects, improving overall project performance by 25% through effective resource coordination, planning, and timely execution, delivering quality results that met client expectations and project objectives, besides published 3 English articles related to geology and 3 conference presentations. 
 
 
-### Education
+## Education
   - AEC in Data Science @ Montreal College of Information Technology
   - Project Management Certificate @ HEC Montreal
   - Master’s degree in Petroleum Geology @ Shahid Chamran University-Iran (Comparative Evaluation, QC)
   -	Bachelor’s Degree in Geology @ Isfahan University-Iran (Comparative Evaluation, QC)
     
-### Volunteering
+## Volunteering
   -	Customer Service, CIUSSS of South-Central Montreal @ Verdun Hospital
   - L'île des Soeurs Elementary School Activities @ Montreal
   - Child Care Board Member @ RIPI-Iran
