@@ -25,7 +25,12 @@ Porch, Basement, Bath were Converted to total Square feet
       - Encoding
 features with quality order were transformed via ordinal labeling.
 the rest categorical-nominals using dummy encoding were transformed.
-![image](https://github.com/user-attachments/assets/4bcc3f44-6838-4e62-85c3-42e346167462)
+   - Exploratory Data Analysis (EDA)
+   To understand data, first exploratory data analysis was performed. This will provide insights that will be useful in building prediction models. the goal is: 
+        - Investigate the relationship between each variables and house price and identify any patterns. For example, between the year of construction of a house and its price change. 
+        - Analyze relationships between the features. This may reveal that certain features are redundant, and this would help the subsequent analysis.
+   - Through this stage, histograms, correlation charts, regression scatter plots and bar graphs were creaated and they provided insightful understanding of the features.
+![image](https://github.com/user-attachments/assets/84a3bdaa-3ab2-4920-81f6-dac0ba0ae3f9)
 
 
 
