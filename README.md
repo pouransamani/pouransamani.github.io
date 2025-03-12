@@ -6,12 +6,12 @@
    - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price for each home.
      
    - #### Objective 
-The goal is to develop a predictive model by implementing and tuning algorithms such as Lasso, Random Forest, and Gradient Boosting to accurately estimate SalePrice for homes in the test dataset. Specifically, for each Id in the test set, the model should generate a corresponding SalePrice prediction.
+The goal is to develop a predictive model applying regression problem by implementing and tuning algorithms such as Lasso, Random Forest, and Gradient Boosting to accurately estimate SalePrice for homes in the test dataset. Specifically, for each Id in the test set, the model should generate a corresponding SalePrice prediction.
 
 Following the pipeline for doing this project
   ![image](https://github.com/user-attachments/assets/2bb38bfa-ea31-4122-978d-1b2822739318)
 
-   - Preprocessing and data cleaning were performed by first checking for duplicate values. The metadata was carefully analyzed to better handle missing values. Therefore, three stages were applied: (1) NA values were replaced with None in the Garage, Pool, Basement, and Alley variables, (2) numerical features were imputed with the median, while categorical features were imputed with the mode, and (3) one feature was dropped.
+   - #### **Preprocessing and data cleaning** were performed by first checking for duplicate values. The metadata was carefully analyzed to better handle missing values. Therefore, three stages were applied: (1) NA values were replaced with None in the Garage, Pool, Basement, and Alley variables, (2) numerical features were imputed with the median, while categorical features were imputed with the mode, and (3) one feature was dropped.
      - Outlier Detection
 Scatter plot showed two extreme house price comparing with the rest of the data, I dropped these tow datapoints. 
 ![image](https://github.com/user-attachments/assets/7f730850-64b1-4a4d-8b13-c4a5f2978b9d)
@@ -28,14 +28,14 @@ Porch, Basement, Bath were Converted to total Square feet
 features with quality order were transformed via ordinal labeling.
 the rest categorical-nominals using dummy encoding were transformed.
 
-   - Exploratory Data Analysis (EDA)
+   - ### **Exploratory Data Analysis (EDA)**
    To understand data, first exploratory data analysis was performed. This will provide insights that will be useful in building prediction models. the goal is: 
         - Investigate the relationship between each variables and house price and identify any patterns. For example, between the year of construction of a house and its price change. 
         - Analyze relationships between the features. This may reveal that certain features are redundant, and this would help the subsequent analysis.
    - Through this stage, histograms, correlation charts, regression scatter plots and bar graphs were creaated and they provided insightful understanding of the features.
 ![image](https://github.com/user-attachments/assets/84a3bdaa-3ab2-4920-81f6-dac0ba0ae3f9)
 
-
+     - ### **Machine learning models (EDA)**
 
 
 
