@@ -4,13 +4,29 @@
 ## Projects
  - #### House Price Prediction
    - A home buyer describe his dream house. He might focus on the number of bedrooms or the beautiful yard. However, as it will discover in this project, many factors can influence a home's price beyond just its visible features. With a dataset containing 79 variables that describe nearly every aspect of residential properties in Ames, Iowa, the challenge will be to predict the final sale price for each home.
-- #### Objective 
-The aim is to develop a predictive model, implementing and tuning models such as Lasso, Random Forests and Gradient Boosting to make accurate predictions that estimate the SalePrice of homes in the test dataset. Specifically, for each Id in the test set, the corresponding SalePrice should be predicted.
+   - #### Objective 
+The goal is to develop a predictive model by implementing and tuning algorithms such as Lasso, Random Forest, and Gradient Boosting to accurately estimate SalePrice for homes in the test dataset. Specifically, for each Id in the test set, the model should generate a corresponding SalePrice prediction.
 
 Following the pipeline for doing this project
   ![image](https://github.com/user-attachments/assets/2bb38bfa-ea31-4122-978d-1b2822739318)
 
-  - Preprocessing and cleaning data were done by verryfing if there is any duplicate value. Meta data was carfully analysed to better handel missing values. Therefor three stages were applied (NA values were replace with None in Garage, Pool, Basement and Alley variabels, numerical features were imputeed with Median, and Mode for categorical ones and finally one feature was droped.  
+   - Preprocessing and data cleaning were performed by first checking for duplicate values. The metadata was carefully analyzed to better handle missing values. Therefore, three stages were applied: (1) NA values were replaced with None in the Garage, Pool, Basement, and Alley variables, (2) numerical features were imputed with the median, while categorical features were imputed with the mode, and (3) one feature was dropped.
+     - Outlier Detection
+Scatter plot showed two extreme house price comparing with the rest of the data, I dropped these tow datapoints. 
+![image](https://github.com/user-attachments/assets/7f730850-64b1-4a4d-8b13-c4a5f2978b9d)
+
+     - Standardization and normalization
+The numerical features were scaled to ensure they’re on a similar scale to improve model performance and reduce bias from large numbers. The SalePrice has a right-skewed distribution, normalization, especially using log transformation, makes the distribution more normal, improving regression results. 
+
+     - Features engineering
+Numerical features with senses of categorical were converted to categorical ones
+Year related features were transformed to Age related features
+Porch, Basement, Bath were Converted to total Square feet
+      - Encoding
+features with quality order were transformed via ordinal labeling.
+the rest categorical-nominals using dummy encoding were transformed.
+![image](https://github.com/user-attachments/assets/4bcc3f44-6838-4e62-85c3-42e346167462)
+
 
 
 
