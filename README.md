@@ -52,7 +52,8 @@ the rest categorical-nominals using dummy encoding were transformed
 
   ![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
 
-For comparing their performance, Bar-graphs show the RMSE and R2 score values for different models predicting SalePrice.
+To compare their performance, bar graphs display the RMSE and R² score values for different models predicting SalePrice.
+
   ![image](https://github.com/user-attachments/assets/f5c6592d-e0ee-4d6e-8f9b-8e4881979ccb)
 
 
