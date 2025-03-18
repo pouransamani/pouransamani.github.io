@@ -37,18 +37,18 @@ features with quality order were transformed via ordinal labeling
 the rest categorical-nominals using dummy encoding were transformed
 
    - ### **Exploratory Data Analysis (EDA)**
-   To understand data, first exploratory data analysis was performed. This will provide insights that will be useful in building prediction models. the goal is: 
-      - Investigate the relationship between each variables and house price and identify any patterns. For example, between the year of construction of a house and its price change. 
-      - Analyze relationships between the features. This may reveal that certain features are redundant, and this would help the subsequent analysis.
-   - Through this stage, histograms, correlation charts, regression scatter plots and bar graphs were creaated and they provided insightful understanding of the features.
+     - To understand data, first exploratory data analysis was performed. This will provide insights that will be useful in building prediction models. the goal is: 
+        - Investigate the relationship between each variables and house price and identify any patterns. For example, between the year of construction of a house and its price change. 
+        - Analyze relationships between the features. This may reveal that certain features are redundant, and this would help the subsequent analysis.
+    - Through this stage, histograms, correlation charts, regression scatter plots and bar graphs were creaated and they provided insightful understanding of the features.
 ![image](https://github.com/user-attachments/assets/84a3bdaa-3ab2-4920-81f6-dac0ba0ae3f9)
 
    - ### **Machine learning models with evaluation metrics**
 For modeling one baseline model (Linear Regression) and four advanced models (Lasso, Ridge, Random Forest, and Gradient Boosting) were used. the resulit shows;
-      - Lasso performs worse than the Base Model, as shown by its higher RMSE and lower R².
-      - Ridge performs slightly better than Lasso but still worse than the Base Model.
-      - Random Forest outperforms both Lasso and Ridge but still underperforms compared to the Base Model.
-      - XGBoost performs significantly better than Lasso, Ridge, and Random Forest in terms of both RMSE and R², making it the best non-linear model. However, it still underperforms compared to the Base Model.      
+        - Lasso performs worse than the Base Model, as shown by its higher RMSE and lower R².
+        - Ridge performs slightly better than Lasso but still worse than the Base Model.
+        - Random Forest outperforms both Lasso and Ridge but still underperforms compared to the Base Model.
+        - XGBoost performs significantly better than Lasso, Ridge, and Random Forest in terms of both RMSE and R², making it the best non-linear model. However, it still underperforms compared to the Base Model.      
 
 ![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
 
