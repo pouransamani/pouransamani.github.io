@@ -13,9 +13,9 @@
 The goal is to develop a predictive model applying regression problem by implementing and tuning algorithms such as Lasso, Random Forest, and Gradient Boosting to accurately estimate SalePrice for homes in the test dataset. Specifically, for each Id in the test set, the model should generate a corresponding SalePrice prediction.
 
 Following the pipeline for doing this project
-![image](https://github.com/user-attachments/assets/e2c2012c-338c-4c8b-a2f1-87fde105b7f2)
 
-   ![image](https://github.com/user-attachments/assets/2bb38bfa-ea31-4122-978d-1b2822739318)
+  ![image](https://github.com/user-attachments/assets/e2c2012c-338c-4c8b-a2f1-87fde105b7f2)
+
 
    - #### **Preprocessing and data cleaning**
      This step was performed by first checking for duplicate values. The metadata was carefully analyzed to better handle missing values. Therefore, three stages were applied: (1) NA values were replaced with None in the Garage, Pool, Basement, and Alley variables, (2) numerical features were imputed with the median, while categorical features were imputed with the mode, and (3) one feature was dropped.
