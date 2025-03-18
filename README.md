@@ -13,7 +13,7 @@
 The goal is to develop a predictive model applying regression problem by implementing and tuning algorithms such as Lasso, Random Forest, and Gradient Boosting to accurately estimate SalePrice for homes in the test dataset. Specifically, for each Id in the test set, the model should generate a corresponding SalePrice prediction.
 
 Following the pipeline for doing this project
-  ![image](https://github.com/user-attachments/assets/2bb38bfa-ea31-4122-978d-1b2822739318)
+   ![image](https://github.com/user-attachments/assets/2bb38bfa-ea31-4122-978d-1b2822739318)
 
    - #### **Preprocessing and data cleaning**
      This step was performed by first checking for duplicate values. The metadata was carefully analyzed to better handle missing values. Therefore, three stages were applied: (1) NA values were replaced with None in the Garage, Pool, Basement, and Alley variables, (2) numerical features were imputed with the median, while categorical features were imputed with the mode, and (3) one feature was dropped.
@@ -22,7 +22,7 @@ Following the pipeline for doing this project
 
      - Outlier Detection
 Scatter plot showed two extreme house price comparing with the rest of the data, I dropped these tow datapoints. 
-![image](https://github.com/user-attachments/assets/7f730850-64b1-4a4d-8b13-c4a5f2978b9d)
+   ![image](https://github.com/user-attachments/assets/7f730850-64b1-4a4d-8b13-c4a5f2978b9d)
 
      - Standardization and normalization
 The numerical features were scaled to ensure they’re on a similar scale to improve model performance and reduce bias from large numbers. The SalePrice has a right-skewed distribution, normalization, especially using log transformation, makes the distribution more normal, improving regression results. 
@@ -41,7 +41,7 @@ the rest categorical-nominals using dummy encoding were transformed
         - Investigate the relationship between each variables and house price and identify any patterns. For example, between the year of construction of a house and its price change. 
         - Analyze relationships between the features. This may reveal that certain features are redundant, and this would help the subsequent analysis.
     - Through this stage, histograms, correlation charts, regression scatter plots and bar graphs were creaated and they provided insightful understanding of the features.
-![image](https://github.com/user-attachments/assets/84a3bdaa-3ab2-4920-81f6-dac0ba0ae3f9)
+  ![image](https://github.com/user-attachments/assets/84a3bdaa-3ab2-4920-81f6-dac0ba0ae3f9)
 
    - ### **Machine learning models with evaluation metrics**
      For modeling one baseline model (Linear Regression) and four advanced models (Lasso, Ridge, Random Forest, and Gradient Boosting) were used. the resulit shows;
@@ -50,18 +50,20 @@ the rest categorical-nominals using dummy encoding were transformed
         - Random Forest outperforms both Lasso and Ridge but still underperforms compared to the Base Model.
         - XGBoost performs significantly better than Lasso, Ridge, and Random Forest in terms of both RMSE and R², making it the best non-linear model. However, it still underperforms compared to the Base Model.      
 
-![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
+  ![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
 
 For comparing their performance, Bar-graphs show the RMSE and R2 score values for different models predicting SalePrice.
-![image](https://github.com/user-attachments/assets/f5c6592d-e0ee-4d6e-8f9b-8e4881979ccb)
+  ![image](https://github.com/user-attachments/assets/f5c6592d-e0ee-4d6e-8f9b-8e4881979ccb)
 
 
-![image](https://github.com/user-attachments/assets/4d9856d1-9031-45db-b2c1-4da63db5879f)
+  ![image](https://github.com/user-attachments/assets/4d9856d1-9031-45db-b2c1-4da63db5879f)
 
  - ### **Final Submission-Using VotingRegressor**
    Combining predictions from different applied machine learning models, It gives an average prediction result based on the prediction of all the models.
    
-   ![image](https://github.com/user-attachments/assets/b334b2e1-ba4d-4653-8ac0-d51ec44e873b)
+   ![image](https://github.com/user-attachments/assets/a12cdb3b-cdf1-437a-b4c5-012700df7253)
+
+
     
 
 ## Work Experience
