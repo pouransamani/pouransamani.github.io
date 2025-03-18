@@ -46,6 +46,7 @@ the rest categorical-nominals using dummy encoding were transformed
      - ### **Machine learning models (EDA)**
 For modeling one baseline model (Linear Regression) and four advanced models (Lasso, Ridge, Random Forest, and Gradient Boosting) were used.
 
+![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
 
 
 
