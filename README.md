@@ -58,7 +58,7 @@ For comparing their performance, Bar-graphs show the RMSE and R2 score values fo
 
 ![image](https://github.com/user-attachments/assets/4d9856d1-9031-45db-b2c1-4da63db5879f)
 
- - ### **Final Submission-Using VotingRegressor **
+ - ### **Final Submission-Using VotingRegressor**
    Combining predictions from different applied machine learning models, It gives an average prediction result based on the prediction of all the models.
    
    ![image](https://github.com/user-attachments/assets/b334b2e1-ba4d-4653-8ac0-d51ec44e873b)
