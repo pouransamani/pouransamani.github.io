@@ -30,8 +30,8 @@ Year related features were transformed to Age related features
 Porch, Basement, Bath were Converted to total Square feet
 
       - Encoding
-features with quality order were transformed via ordinal labeling.
-the rest categorical-nominals using dummy encoding were transformed.
+features with quality order were transformed via ordinal labeling
+the rest categorical-nominals using dummy encoding were transformed
 
    - ### **Exploratory Data Analysis (EDA)**
    To understand data, first exploratory data analysis was performed. This will provide insights that will be useful in building prediction models. the goal is: 
