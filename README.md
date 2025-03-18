@@ -43,7 +43,7 @@ the rest categorical-nominals using dummy encoding were transformed
    - Through this stage, histograms, correlation charts, regression scatter plots and bar graphs were creaated and they provided insightful understanding of the features.
 ![image](https://github.com/user-attachments/assets/84a3bdaa-3ab2-4920-81f6-dac0ba0ae3f9)
 
-     - ### **Machine learning models with evaluation metrics**
+   - ### **Machine learning models with evaluation metrics**
 For modeling one baseline model (Linear Regression) and four advanced models (Lasso, Ridge, Random Forest, and Gradient Boosting) were used. the resulit shows;
       - Lasso performs worse than the Base Model, as shown by its higher RMSE and lower R².
       - Ridge performs slightly better than Lasso but still worse than the Base Model.
