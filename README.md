@@ -52,7 +52,10 @@ the rest categorical-nominals using dummy encoding were transformed
 
 ![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
 
-
+ - ### **Final Submission-Using VotingRegressor **
+   Combining predictions from different applied machine learning models, It gives an average prediction result based on the prediction of all the models.
+   ![image](https://github.com/user-attachments/assets/b334b2e1-ba4d-4653-8ac0-d51ec44e873b)
+    
 
 ## Work Experience
 - Project Coordinator @ WSP, Montreal 
