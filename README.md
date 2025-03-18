@@ -58,6 +58,15 @@ For comparing their performance, Bar-graphs show the RMSE and R2 score values fo
 
   ![image](https://github.com/user-attachments/assets/4d9856d1-9031-45db-b2c1-4da63db5879f)
 
+
+  - ### **Feature importance**
+     To achieve the better model, feature selection helps improve model performance by keeping only the most relevant features. I investigated top 20 feature importance using,
+      - 1- The correlation Analysis by removing features highly correlated with each other and Keep features that have a good correlation with the target variable.
+      - 2- The other method for feature importance is using some algorithms like SelectKBeat, f_regression, RandomFarest, XGBoost.
+
+        ![image](https://github.com/user-attachments/assets/26b0fcd6-f622-4009-a6c0-df01b9b99a03)
+
+
  - ### **Final Submission-Using VotingRegressor**
    Combining predictions from different applied machine learning models, It gives an average prediction result based on the prediction of all the models.
    
