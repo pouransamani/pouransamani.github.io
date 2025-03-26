@@ -101,7 +101,6 @@ To compare their performance, bar graphs display the RMSE and R² score values f
    - Delivered oral presentations to stakeholders, providing clear and concise updates on project status and results
    - Achievements: Successfully led 12 geology-focused projects, improving overall project performance by 25% through effective resource coordination, planning, and timely execution, delivering quality results that met client expectations and project objectives, besides published 3 English articles related to geology and 3 conference presentations. 
 
-
 ## Education
   - AEC in Data Science @ Montreal College of Information Technology
   - Project Management Certificate @ HEC Montreal
