@@ -113,12 +113,12 @@ To compare their performance, bar graphs display the RMSE and R² score values f
   - Supervising student trainees for master’s and bachelor’s degrees in geology
   - Experience in project delivery within Agile and Waterfall environments
     
- ## Publications
+## Publications
    - Petrographic Characteristics and Fluid Inclusion Study of Carbonate Cements in Permian-Triassic Rock Sequence of Southern Iran: an Implication of Rock-fluid Interactions in Carbonate Reservoir Rocks-2017
    - Sequence stratigraphy and ichnology of Early Cretaceous reservoirs, Gadvan Formation in southwestern Iran- 2016
    - Carbonate cements investigation in Permo-Triassic Dalan-Kangan reservoirs: Case study in Persian Gulf, Iran-2015
   
- ## Volunteering
+## Volunteering
   - Event coordinator @ Mamanest for two events during Woman's week
   -	Customer Service, CIUSSS of South-Central Montreal @ Verdun Hospital
   - L'île des Soeurs Elementary School Activities @ Montreal
