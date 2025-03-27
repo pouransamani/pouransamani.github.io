@@ -16,6 +16,7 @@ description: |
   <br><br>
   </p>
 
+show_downloads: true
 theme: jekyll-theme-minimal
 
 
