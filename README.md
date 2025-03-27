@@ -72,7 +72,7 @@ To compare their performance, bar graphs display the RMSE and R² score values f
    ![image](https://github.com/user-attachments/assets/a12cdb3b-cdf1-437a-b4c5-012700df7253)
 
 
-    
+  - ## **To see more projects follow my GitHub**   
 
 ## Work Experience
 - Project Coordinator @ WSP, Montreal 
