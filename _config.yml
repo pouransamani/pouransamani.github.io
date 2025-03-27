@@ -1,6 +1,16 @@
-title: "Pouran Nazarian Samani"
-logo: "/assets/images/Pouran_photo.png?raw=true"
-description: "Data Scientist Portfolio"
+title: "<p align='center'> Pouran Nazarian Samani </p>"
+logo: "/assets/images/Pouran_photo.png"
+description: |
+<p align="center">
+<a href= "PDF/Pouran CV-DS_PM.pdf">Resume</a> |
+<a href= "https://www.linkedin.com/in/pouran-samani-9468643a/">LinkedIn</a> |
+<a href="https://github.com/pouransamani">GitHub</a>
+</p>
+
+<p align="justify">
+Data Scientist Portfolio
+<br><br>
+</p>
 show_downloads: true
 theme: jekyll-theme-minimal
     
