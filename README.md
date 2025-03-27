@@ -1,9 +1,5 @@
 # Data Scientist-Project Management Portfolio
 
-## About me
-  I have over a decade of experience in project management and geology and now transitioning into data analysis and business intelligence. With expertise in SQL, Python, ML, and Power BI and project management methodologies like Agile and Waterfall, I specialize in transforming complex data into actionable insights. My background in managing multidisciplinary geological projects, optimizing resource allocation, and leveraging data-driven decision-making allows me to bring efficiency and innovation to any team. I'm passionate about using analytics to solve real-world problems, and I’m excited to apply my skills in a role that combines data, strategy, and impact. I'd love to connect and explore how my experience can contribute to your team!
-  
-#### Techincal Skills: Python, ML, SQL, Tableau, Excel, MS Project, ERP(Oracle) 
 
 ## Projects
  - #### House Price Prediction
