@@ -1,16 +1,24 @@
 title: "<p align='center'> Pouran Nazarian Samani </p>"
-logo: "/assets/images/Pouran_photo.png"
-description: |
-<p align="center">
-<a href= "PDF/Pouran CV-DS_PM.pdf">Resume</a> |
-<a href= "https://www.linkedin.com/in/pouran-samani-9468643a/">LinkedIn</a> |
-<a href="https://github.com/pouransamani">GitHub</a>
-</p>
 
-<p align="justify">
-Data Scientist Portfolio
-<br><br>
-</p>
-show_downloads: true
+logo: "/assets/images/Pouran_photo.png?raw=true"
+
+description: |
+  <p align="center">
+  <a href="PDF/Pouran -DS_PM.pdf">Resume</a> |
+  <a href="https://www.linkedin.com/in/pouran-samani-9468643a/">LinkedIn</a> |
+  <a href="https://github.com/pouransamani">GitHub</a>
+  </p>
+
+  <p align="justify">
+  Junior Data Scientist with a Master’s in Geology, a Certificate in Project Management, and a graduate degree in Data Science. Skilled in developing predictive models, data querying, cleaning, and feature engineering using machine learning techniques. Leveraging a strong analytical mindset shaped by geological research and project management expertise, I excel at identifying patterns, solving complex problems, and delivering data-driven insights. Proven ability to collaborate with multidisciplinary teams and effectively communicate analytical findings to non-technical audiences. 
+  <br><br>
+  Seeking opportunities to drive business growth through strategic data utilization and AI-powered solutions.
+  <br><br>
+  </p>
+
 theme: jekyll-theme-minimal
+
+
+
+
     
