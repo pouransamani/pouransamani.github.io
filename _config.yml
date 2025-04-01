@@ -21,21 +21,6 @@ show_downloads: true
 theme: jekyll-theme-minimal
 #include: ["footer.html"]
 #<link rel="stylesheet" href="assets/css/style.css">
-theme: minima
-
-# ✅ Footer inclusion (if you are using a footer)
-include: ["_layouts/footer.html"]
-
-# ✅ SEO and GitHub Pages settings
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# ✅ Social media and analytics (if applicable)
-github:
-  is_project_page: false
-  repository_url: "https://github.com/pouransamani/pouransamani.github.io"
-google_analytics: UA-XXXXX-Y  # Replace with your GA code if you use it
 
 
 
