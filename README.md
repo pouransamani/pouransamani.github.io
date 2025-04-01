@@ -9,17 +9,17 @@ The goal is to develop a predictive model applying regression problem by impleme
 
 Following the pipeline for doing this project
 
-  ![image](https://github.com/user-attachments/assets/e2c2012c-338c-4c8b-a2f1-87fde105b7f2)
+![image](https://github.com/user-attachments/assets/e2c2012c-338c-4c8b-a2f1-87fde105b7f2)
 
 
    - #### **Preprocessing and data cleaning**
      This step was performed by first checking for duplicate values. The metadata was carefully analyzed to better handle missing values. Therefore, three stages were applied: (1) NA values were replaced with None in the Garage, Pool, Basement, and Alley variables, (2) numerical features were imputed with the median, while categorical features were imputed with the mode, and (3) one feature was dropped.
-   ![image](https://github.com/user-attachments/assets/9adfc931-0b74-41b8-bcea-71eb559bd296)
+![image](https://github.com/user-attachments/assets/9adfc931-0b74-41b8-bcea-71eb559bd296)
 
 
      - Outlier Detection
 Scatter plot showed two extreme house price comparing with the rest of the data, I dropped these tow datapoints. 
-   ![image](https://github.com/user-attachments/assets/7f730850-64b1-4a4d-8b13-c4a5f2978b9d)
+![image](https://github.com/user-attachments/assets/7f730850-64b1-4a4d-8b13-c4a5f2978b9d)
 
      - Standardization and normalization
 The numerical features were scaled to ensure they’re on a similar scale to improve model performance and reduce bias from large numbers. The SalePrice has a right-skewed distribution, normalization, especially using log transformation, makes the distribution more normal, improving regression results. 
@@ -47,14 +47,14 @@ the rest categorical-nominals using dummy encoding were transformed
         - Random Forest outperforms both Lasso and Ridge but still underperforms compared to the Base Model.
         - XGBoost performs significantly better than Lasso, Ridge, and Random Forest in terms of both RMSE and R², making it the best non-linear model. However, it still underperforms compared to the Base Model.      
 
-  ![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
+![image](https://github.com/user-attachments/assets/766ce17e-2279-4a41-988e-d0a0e05dc3d2)
 
 To compare their performance, bar graphs display the RMSE and R² score values for different models predicting SalePrice.
 
-  ![image](https://github.com/user-attachments/assets/f5c6592d-e0ee-4d6e-8f9b-8e4881979ccb)
+![image](https://github.com/user-attachments/assets/f5c6592d-e0ee-4d6e-8f9b-8e4881979ccb)
 
 
-  ![image](https://github.com/user-attachments/assets/4d9856d1-9031-45db-b2c1-4da63db5879f)
+![image](https://github.com/user-attachments/assets/4d9856d1-9031-45db-b2c1-4da63db5879f)
 
 
   - ### **Feature importance**
@@ -62,13 +62,13 @@ To compare their performance, bar graphs display the RMSE and R² score values f
       - 1- The correlation Analysis by removing features highly correlated with each other and Keep features that have a good correlation with the target variable.
       - 2- The other method for feature importance is using some algorithms like SelectKBeat, f_regression, RandomFarest, XGBoost.
 
-        ![image](https://github.com/user-attachments/assets/26b0fcd6-f622-4009-a6c0-df01b9b99a03)
+![image](https://github.com/user-attachments/assets/26b0fcd6-f622-4009-a6c0-df01b9b99a03)
 
 
  - ### **Final Submission-Using VotingRegressor**
    Combining predictions from different applied machine learning models, It gives an average prediction result based on the prediction of all the models.
    
-   ![image](https://github.com/user-attachments/assets/a12cdb3b-cdf1-437a-b4c5-012700df7253)
+![image](https://github.com/user-attachments/assets/a12cdb3b-cdf1-437a-b4c5-012700df7253)
 
 
   - ## **To see more projects follow my GitHub**   
