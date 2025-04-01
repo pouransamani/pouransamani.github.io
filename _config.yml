@@ -4,24 +4,23 @@ logo: "/assets/images/Pouran_photo.jpg?raw=true"
 
 description: |
   <p align="center">
-    <a href="https://github.com/pouransamani/pouransamani.github.io/tree/884cf9c936fe5fc80df6e88fdb120976f58298ab/PDF/Pouran_CV-DS_PM.pdf" target="_blank">Resume</a> |
-    <a href="https://www.linkedin.com/in/pouran-samani-9468643a/">LinkedIn</a> |
-    <a href="https://github.com/pouransamani">GitHub</a>
+  <a href="https://github.com/pouransamani/pouransamani.github.io/tree/884cf9c936fe5fc80df6e88fdb120976f58298ab/PDF/Pouran_CV-DS_PM.pdf" target="_blank">Resume</a> |
+  <a href="https://www.linkedin.com/in/pouran-samani-9468643a/">LinkedIn</a> |
+  <a href="https://github.com/pouransamani">GitHub</a>
   </p>
 
   <p align="justify">
-    Junior Data Scientist With over a decade of experience in project management and geology, transitioning into data analysis & BI. Skilled in developing predictive models, data querying, cleaning, feature engineering using machine learning techniques. Leveraging a strong analytical mindset shaped by geological research and project management expertise, I excel at identifying patterns, solving complex problems, and delivering data-driven insights. 
-    
-    <br><br>
-    Seeking opportunities to drive business growth through strategic data utilization and AI-powered solutions to bring efficiency and innovation. I'd love to connect and explore how my experience can contribute to your team!
-    <br><br>
+  Junior Data Scientist With over a decade of experience in project management and geology, transitioning into data analysis & BI. Skilled in developing predictive models, data querying, cleaning, feature engineering using machine learning techniques. Leveraging a strong analytical mindset shaped by geological research and project management expertise, I excel at identifying patterns, solving complex problems, and delivering data-driven insights. 
+  <br><br>
+  Seeking opportunities to drive business growth through strategic data utilization and AI-powered solutions to bring efficiency and innovation. I'd love to connect and explore how my experience can contribute to your team!
+  <br><br>
   </p>
 
 
 show_downloads: true
 theme: jekyll-theme-minimal
-include: ["footer.html"]
-<link rel="stylesheet" href="assets/css/style.css">
+#include: ["footer.html"]
+#<link rel="stylesheet" href="assets/css/style.css">
 theme: minima
 
 
