@@ -1,27 +1,42 @@
-title: "<p align='right'>Pouran Nazarian Samani</p>"
+title: "<p align='center'>Pouran Nazarian Samani</p>"
 
+# ✅ Ensure the logo path is correct
 logo: "/assets/images/Pouran_photo.jpg?raw=true"
 
 description: |
   <p align="center">
-  <a href="https://github.com/pouransamani/pouransamani.github.io/tree/884cf9c936fe5fc80df6e88fdb120976f58298ab/PDF/Pouran_CV-DS_PM.pdf" target="_blank">Resume</a> |
-  <a href="https://www.linkedin.com/in/pouran-samani-9468643a/">LinkedIn</a> |
-  <a href="https://github.com/pouransamani">GitHub</a>
+    <a href="https://github.com/pouransamani/pouransamani.github.io/tree/main/PDF/Pouran_CV-DS_PM.pdf" target="_blank">Resume</a> |
+    <a href="https://www.linkedin.com/in/pouran-samani-9468643a/" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/pouransamani" target="_blank">GitHub</a>
   </p>
 
   <p align="justify">
-  Junior Data Scientist With over a decade of experience in project management and geology, transitioning into data analysis & BI. Skilled in developing predictive models, data querying, cleaning, feature engineering using machine learning techniques. Leveraging a strong analytical mindset shaped by geological research and project management expertise, I excel at identifying patterns, solving complex problems, and delivering data-driven insights. 
-  <br><br>
-  Seeking opportunities to drive business growth through strategic data utilization and AI-powered solutions to bring efficiency and innovation. I'd love to connect and explore how my experience can contribute to your team!
-  <br><br>
+    <strong>Junior Data Scientist</strong> with over a decade of experience in project management and geology, now transitioning into data analysis and BI. Skilled in developing predictive models, data querying, cleaning, and feature engineering using machine learning techniques. 
+    <br><br>
+    Leveraging a strong analytical mindset shaped by geological research and project management expertise, I excel at identifying patterns, solving complex problems, and delivering data-driven insights. 
+    <br><br>
+    Seeking opportunities to drive business growth through strategic data utilization and AI-powered solutions to bring efficiency and innovation. I'd love to connect and explore how my experience can contribute to your team!
   </p>
 
-
 show_downloads: true
-theme: jekyll-theme-minimal
-#include: ["footer.html"]
-#<link rel="stylesheet" href="assets/css/style.css">
-theme: minima
+
+# ✅ Theme settings
+theme: minima  # Using Minima theme for better layout options
+remote_theme: jekyll/minima
+
+# ✅ Footer inclusion (if you are using a footer)
+include: ["_layouts/footer.html"]
+
+# ✅ SEO and GitHub Pages settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ✅ Social media and analytics (if applicable)
+github:
+  is_project_page: false
+  repository_url: "https://github.com/pouransamani/pouransamani.github.io"
+google_analytics: UA-XXXXX-Y  # Replace with your GA code if you use it
 
 
 
